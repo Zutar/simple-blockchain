@@ -1,0 +1,37 @@
+{
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1"
+  },
+  "name": "simple-blockchain",
+  "description": "This is my simple blockchain",
+  "version": "1.0.0",
+  "main": "start.js",
+  "type": "module",
+  "bin": {
+    "simple-blockchain": "bin/blockchain.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node start.js",
+    "dev": "nodemon start.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zutar/simple-blockchain.git"
+  },
+  "keywords": [
+    "blockchain",
+    "simple",
+    "learn",
+    "pos",
+    "crypto"
+  ],
+  "author": "legdev (Zutar)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zutar/simple-blockchain/issues"
+  },
+  "homepage": "https://github.com/Zutar/simple-blockchain#readme"
+}
